@@ -1,0 +1,49 @@
+git config --global user.name "XXXXXX"
+git config --global user.email "XXXXXX@XXXXXX.com"
+
+git init
+git status
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/XXXXXX/XXXXXX.git
+git push -u origin main
+
+git clone https://github.com/XXXXXX/XXXXXX.git
+cd XXXXXX
+git status
+git add .
+git commit -m "Initial commit"
+    
+git branch -M main
+git branch branchname --------------- git branch dev 
+git checkout branchname -------------- git chechout dev
+
+git checkout -b dev -------- branch is created also switchted to dev
+
+
+list of the commands
+1. git init
+2. git status
+3. git add .
+4. git commit -m "Initial commit"
+5. git remote add origin https://github.com/XXXXXX/XXXXXX.git
+6. git push -u origin main
+7. git clone https://github.com/XXXXXX/XXXXXX.git
+8. cd XXXXXX
+9. git status
+10. git add .
+11. git commit -m "Initial commit"
+12. git branch -M main
+13. git branch branchname
+14. git checkout branchname
+15. git chechout dev
+16. git checkout -b dev
+17. git branch---------------------- list of the branches
+18. git branch -d branchname
+19. git branch -D branchname
+
+20. git branch -a --------- list of the remote and local branches
+21. git branch -r --------- list of the remote branches
+22. git branch -l --------- list of the local branches
+23. git branch -av -------- list of the local and remote branches
+24. git branch -rv -------- list of the remote and local branches
