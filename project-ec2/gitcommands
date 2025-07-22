@@ -47,3 +47,7 @@ list of the commands
 22. git branch -l --------- list of the local branches
 23. git branch -av -------- list of the local and remote branches
 24. git branch -rv -------- list of the remote and local branches
+
+git push --set-upstream origin main
+git push -u origin main
+
